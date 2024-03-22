@@ -1,0 +1,110 @@
+body {
+    display: block;
+    font-family: cursive;
+    margin: auto;
+  }
+  
+  header {
+    top: 0;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    color: rgb(254, 254, 254);
+    font-family: fantasy;
+    font-size: 25px;
+    word-spacing: 10px;
+    position: fixed;
+    height: 3.4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 2.4rem;
+  }
+  #fav-page {
+    display: flex;
+    align-items: center;
+  }
+  
+  #fav-page {
+    margin-left: auto;
+    margin-right: 13px;
+  }
+  #fav-page a {
+    color: white;
+  }
+  #fav-page a:hover{
+    border-radius: 35%;
+    box-shadow: 0 0 7px 2px silver;
+}
+  #main {
+    margin-top: 3.4rem;
+    padding: 10px;
+  }
+  #search-div {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+  }
+  #search-bar {
+    width: 29rem;
+    height: 2.5rem;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid grey;
+  }
+  #search-button {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 0px;
+    border: 0;
+    width: 2.8rem;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  
+  #template-div{
+    /* border: 2px solid red; */
+    width: 94%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-around;
+  }
+  .template{
+    width: 14rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: .5rem;
+    box-shadow: 8px 8px 15px 6px rgb(118, 129, 141);
+    border-radius: 5px;
+  }
+  .template:hover{
+    box-shadow: 1px 1px 15px 6px rgb(118, 129, 141);
+  }
+  .template-img{
+    height: 10rem;
+    border-radius: 5px;
+  }
+  
+  .fav-add{
+    height: 46px;
+    width: 100%;
+    margin-top: 14px;
+    background-color: slategray;
+    border: 1px solid rgb(96, 96, 96);
+    word-spacing: 3px;
+    color: white;
+    border-radius: 5px;
+  }
+  .fav-add:hover{
+    box-shadow: 2px 2px 4px 2px rgb(118, 129, 141);
+  
+  }

@@ -1,0 +1,90 @@
+body {
+  display: block;
+  font-family: cursive;
+  margin: auto;
+}
+
+header {
+  top: 0;
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  color: rgb(254, 254, 254);
+  font-family: fantasy;
+  font-size: 25px;
+  word-spacing: 10px;
+  position: fixed;
+  height: 3.4rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 2.4rem;
+}
+#fav-page {
+  display: flex;
+  align-items: center;
+}
+
+#fav-page {
+  margin-left: auto;
+  margin-right: 13px;
+}
+#fav-page a {
+  color: white;
+}
+#fav-page a:hover{
+    border-radius: 35%;
+    box-shadow: 0 0 7px 2px silver;
+}
+#main {
+  margin-top: 3.4rem;
+  padding: 10px;
+}
+#template-div {
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(130, 133, 118, 0.539);
+  box-shadow: 0 0 10px 3px rgba(130, 133, 118, 0.539);
+}
+
+.tile-div-img {
+  height: 84%;
+  width: 30%;
+}
+
+.tile-des {
+  height: 80%;
+  padding: 10px;
+  /* border: 2px solid blue; */
+  width: 60%;
+  box-shadow: 0 0 30px 10px black;
+  overflow: auto;
+}
+
+.tile-img {
+  box-shadow: 0 0 30px 10px black;
+  width: 100%;
+  height: auto;
+}
+.fav-add{
+    height: 46px;
+    width: 100%;
+    margin-top: 14px;
+    background-color: slategray;
+    border: 1px solid rgb(96, 96, 96);
+    word-spacing: 3px;
+    color: white;
+    border-radius: 5px;
+  }
+  .fav-add:hover{
+    box-shadow: 2px 2px 4px 2px rgb(118, 129, 141);
+  
+  }
