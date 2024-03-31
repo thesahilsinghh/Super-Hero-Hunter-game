@@ -20,7 +20,7 @@ About page consists data of particular superhero. It contains all the informatio
 
 It consistes of list of all favorite superheros.
 
-#Tools and technologies used - Html, css, Javascript, bootstrap (css framework)
+#Tools and technologies used - Html, css, Javascript
 
 #hosted link -
 Link : https://thesahilsinghh.github.io/Super-Hero-Hunter-game/
